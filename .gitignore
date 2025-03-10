@@ -1,0 +1,78 @@
+
+# =============== #
+# Unity 專案忽略項目 #
+# =============== #
+
+# 忽略 Library 目錄 (Unity 編譯產物)
+Library/
+
+# 忽略 Temp 目錄 (Unity 臨時檔案)
+Temp/
+
+# 忽略 Obj 目錄 (MSBuild 產物)
+Obj/
+
+# 忽略 Build 目錄 (建置輸出)
+Build/
+Builds/
+Build-web/
+
+# 忽略 Logs 目錄 (Unity 日誌)
+Logs/
+
+# 忽略 UserSettings (個人本機設定)
+UserSettings/
+
+# 忽略記憶體暫存檔案
+MemoryCaptures/
+
+# 忽略 VSCode 和 Rider 的 IDE 設定
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln*
+*.user
+*.unityproj
+
+# 忽略 MacOS 及 Windows 產生的系統檔案
+.DS_Store
+Thumbs.db
+
+# 其他暫存檔案
+*.bak
+*.obj
+*.svd
+*.pdb
+*.pidb
+*.idb
+*.log
+*.tlog
+*.TMP
+*.temp
+*.tmproj
+
+# 忽略 Unity Cloud Build 相關檔案
+[Cc]ache/
+[Uu]ser[Ss]ettings/
+
+# 忽略 PlayMode 及 EditMode 測試結果
+Assets/**/StreamingAssets/UnityPlayer.log
+Assets/**/StreamingAssets/Editor.log
+
+# 忽略 Package 管理相關的鎖定檔案
+Packages/packages-lock.json
+
+# 如果使用 Unity Asset Store 購買的資源，需要忽略這些 (可選)
+# Assets/AssetStoreTools*
+
+# =============== #
+# Git LFS (可選) #
+# =============== #
+
+# 如果你的專案有大量的二進位資產 (如 .psd, .mp4, .fbx)，可以考慮使用 Git LFS
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.mp4 filter=lfs diff=lfs merge=lfs -text
+# *.fbx filter=lfs diff=lfs merge=lfs -text
+
